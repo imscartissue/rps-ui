@@ -142,6 +142,8 @@ buttonContainer.addEventListener('click', (event) => {
             scoreSibling.textContent = endMessage;
             score.appendChild(scoreSibling);
         }
+        const computerButton = document.querySelector("#computer");
+        computerButton.textContent = "🤔";
         alert("The game is over");
         playerWins = 0;
         computerWins = 0;
