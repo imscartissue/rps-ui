@@ -23,13 +23,14 @@ h1 {
     display: flex;
     justify-content: space-around;
     margin: 20px;
+    flex-wrap: wrap;
     align-items: center;
 }
 
 .paragraph-container {
     color: #002447;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     margin: 20px;
 }
 
@@ -49,6 +50,7 @@ button {
     border: 3px solid #002447;
     border-radius: 20px;
     margin: 10px;
+    color: #002447;
 }
 
 .computed-result {
@@ -66,4 +68,16 @@ button {
 
 #p-container {
     width: 240px;
+}
+
+.button-container button {
+    padding: 10px;
+}
+
+.button-container button:hover {
+    background-color: #188b8a;
+}
+
+.score button:hover {
+    background-color: #035825;
 }
